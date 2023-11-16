@@ -1,0 +1,137 @@
+# Pearson Edexcel Large Data Set
+Andrea Carpignani
+Thursday 16 November 2023
+
+# Information about the Data Set
+
+## Introduction
+
+Pearson have provided this large data set, which will support the
+assessment of Statistics in the A level Mathematics Paper 3 and AS
+Mathematics Paper 2. Students are required to become familiar with the
+data set in advance of the final assessment.
+
+To support the use of the large data set in the teaching of the
+statistics content, tasks such as:
+
+-   selecting a sample
+
+-   cleaning the data
+
+-   creating diagrams from the data
+
+-   calculating summary statistics such as mean, standard deviation
+
+-   calculating regression equations and correlation coefficients where
+    applicable
+
+-   hypothesis testing,
+
+must be carried out by students during their course of study. Students
+should use technology such as spreadsheets or other statistical packages
+to explore the data.
+
+See the specifications A level Mathematics (9MA0) and AS Mathematics
+(8MA0) for further information
+
+## Data Source
+
+The data set consists of weather data samples provided by the Met Office
+for five UK weather stations and three overseas weather stations in the
+time periods May to October 1987 and May to October 2015. The weather
+stations are labelled on the maps shown:
+
+-   in the UK - Camborne, Heathrow, Hurn, Leeming and Leuchars
+-   overseas - Beijing, Jacksonville and Perth
+
+Further information around our data source can be accessed at
+http://www.metoffice.gov.uk/
+
+## Dataset variables and explanatory notes
+
+The Met Office provides data for a number of different weather
+variables. Our data set includes data for eleven variables recorded
+across the weather stations during the set periods of time:
+
+-   **temperature** - Daily Mean Temperature - Air temperatures are
+    recorded by thermometers in a louvered screen 1.25 metres above
+    short grass, except at some Weather Centre’s and Climate Data Logger
+    stations, where observations are made from a non-standard roof top
+    exposure.  
+    Values are noted in degrees and tenths (Degrees Celsius) and values
+    below 0 Deg C are preceded by a minus sign. A reading which is not
+    available is listed as ‘n/a’. The daily mean air temperature
+    (0900-0900 GMT) is the average of the hourly temperature readings
+    during this period.
+
+-   **rainfall** - Daily Total Rainfall - Daily totals refer to 24 hour
+    periods commencing at 0900 Greenwich Mean Time (1000 British Summer
+    Time) on the day of entry and includes any solid precipitation, such
+    as snow or hail, which is melted and measured in the same way as
+    rainfall. A ‘trace or tr’ of rain is an amount less than 0.05mm. A
+    reading which is not available will be shown by ‘n/a’. All totals
+    are in millimetres (mm).
+
+-   **sunshine** - Daily Total Sunshine - At most Met Office stations
+    sunshine is measured by an instrument that measures the amount of
+    solar radiation exceeding a threshold. Sunshine amounts are recorded
+    in hours and tenths and show the amount of bright sunshine recorded
+    on the day of entry. A reading which is not available is listed as
+    ‘n/a’.
+
+-   **windspeed**, **gust**, **wind_direction**, **gust_direction** -
+    Daily Mean Windspeed, Daily Maximum Gust, Daily Mean Wind Direction
+    and Daily Maximum Gust Direction
+
+    -   Wind speeds are given in knots (1 knot = 1.15mph). The daily
+        mean speed is averaged over the 24 hours from 0000GMT on the
+        date given.
+
+    -   The maximum gust speed is the maximum instantaneous speed that
+        occurred during the 24 hours from 0000GMT on the date given.
+        Readings for both variables which are not available are listed
+        as ‘n/a’.
+
+    -   The daily mean wind direction is averaged over the 24 hours from
+        0000GMT on the date given, rounded to the nearest 10 degrees
+
+    -   The direction of the maximum gust is that direction from which
+        the wind was blowing when the maximum gust during the hour
+        commencing at the time of entry occurred, and is measured in
+        degrees from true north.
+
+    For all locations, the speed of the wind is also categorised
+    according to the Beaufort scale. For the UK locations, the wind and
+    gust direction measurements are also listed as cardinal directions.
+
+-   **humidity** - Daily Maximum Relative Humidity - The relative
+    humidity is a measure of how close the air is to being saturated
+    with water vapour. Relative humidities of above 95% are associated
+    with mist and fog. A reading which is not available is listed as
+    ‘n/a’.
+
+-   **cloud** - Cloud cover - Cloud cover is measured in eighths
+    (Oktas). Cloud cover is the fraction of the celestial dome covered
+    by cloud.
+
+-   **visibility** - Visibility - Visibility is defined as the greatest
+    distance at which an object can be seen and recognized in daylight,
+    or at night could be seen and recognized if the general illumination
+    were raised to daylight level. It is measured using visiometer at
+    automatic sites but used to be done by observers at manual stations
+    except at some Weather Centres and Climate Data Logger stations,
+    where observations are made from a non-standard roof top exposure.
+    Visibility is measured horizontally. Values are noted in decametres
+    (dam) A dash indicates data not available.
+
+-   **pressure** - Pressure
+
+    -   The mean sea level pressure has been calculated from a
+        measurement made at station level.
+
+    -   Units - the pressure unit used in meteorology was previously the
+        millibar (one bar = 1000 millibars).
+
+    However, this has been replaced by the SI unit of pressure — the
+    pascal (Pa).  
+    One hectopascal (hPa) = 1 millibar (mb).
